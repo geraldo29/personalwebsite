@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {background-color:powderblue;}
+    h1 {color:blue;}
+    p {color:black;}
+    h2 {color:black;}
+    h3 {color:black;}
+    h4 {color:black;}
+  </style>
+</head>
+  <body ng-app="myApp" ng-controller="MyCtrl">
+  
+    
+    <h1>{{title}}</h1>
+    <h2>{{body}}</h2>
+
+    <hr>
+   <div>
+      <p>{{message}}</p>
+      <p>{{message2}}</p>
+      <p>{{message3}}</p>
+
+
+
+    </div>
+    <div class= "image" resize>
+      <a href=https://www.linkedin.com/in/geraldolopez1>
+      <img src="https://s12.postimg.org/6ouhtn01p/rsz_1rsz_1rsz_1rsz_linkedin_circlesvg.png"/></a>
+      <a href=https://www.facebook.com/geraldo29>
+      <img src="https://s21.postimg.org/6vuu8ls47/rsz_1rsz_logo_facebook.png"/></a>
+      <a href=https://www.twitter.com/geraldo29>
+      <img src="https://s16.postimg.org/5aaaa6fz9/rsz_1rsz_1rsz_twitterbird.png"/></a>
+      <img ng-src="{{image[0].src}}"/> 
+    </div>
+  </body>
+
+</html>
+

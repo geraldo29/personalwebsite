@@ -1,0 +1,67 @@
+/* Put your css in here */
+
+
+#header {
+    height: 00px;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+
+#logo {
+    float: left;
+    margin: 0;
+}
+
+#logo a {
+    background: url("http://i.picresize.com/images/2016/09/17/ekrlX.jpg") no-repeat top left;
+    width: 200px;
+    height: 200px;
+    margin: 8px;
+    display: block;
+}
+
+#header #menu {float:left;padding:17px 40px 0 0;}
+
+#container {padding:200px 20px 20px 40px;}
+
+.color {
+    background-color: rgba(195, 30, 30, 0.9) !important;
+}
+
+.shadow {
+    
+    height: 30px;
+    position: fixed;
+    top: 68px;
+    width: 100%;
+}
+.btn {
+  padding: 0 6px 0 6px;
+  margin: 6px 8px 6px 8px;
+  min-width: 88px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration:none;
+  border: none;
+  outline: none;
+}
+
+.btn {
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 3px 15px 3px 15px;
+    color: rgb(49, 46, 46);
+    background-color: rgba(224, 60, 10, 0.96);
+    text-transform: none;
+    font-weight: 400;
+    min-width:100px;
+}
+.btn {
+    border-radius: 0;
+    border-left: 1px solid rgba(230, 230, 230, 0.96);
+    border-right: 1px solid rgba(230, 230, 230, 0.96);
+}
